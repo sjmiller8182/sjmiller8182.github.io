@@ -17,8 +17,8 @@ Education
 
 Work experience
 ======
-* Texas Instruments
-  * Test Engineer
+* Test Engineer as Texas Instruments Inc.
+  * Worked with cross-functional teams
   
 Skills
 ======
@@ -48,4 +48,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* ODSC West Volunteer (2019)

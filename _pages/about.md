@@ -10,8 +10,17 @@ redirect_from:
 
 Bio
 ======
-I am a test engineer at Texas Instruments Inc. and master's student in Data Science at SMU. I have a bachelor's degree in engineering physics and a bachelor's degree in electrical engineering from LeTourneau University.
+I am focused on data science. With a background in physics, I take an analytic approach to data. Working as a software engineer, I have built practical skills in software development and deployment. Utilizing my passion for learning, I am consistently expanding my expertise in software, data analysis, and machine learning.
 
-Toward Data Science / Machine Learning
-======
-I am primary self taught in data science and machine learning.
+As a test engineer, I work as part of a cross-functional team developing software and analyzing large, high-dimensional datasets. I aim to develop intuitive software that is portable and extensible. This software generates large datasets on manufactured products. I inspect data to find anomalies, determine root causes of manufacturing defects, and ensure production test quality.
+
+I am currently pursuing a master’s degree in data science at SMU, concentrating in machine learning.
+
+My strengths:
+* Enthusiastic about solving challenging problems
+* Self-motivated to learn new skills
+* Constantly building expertise
+* Technical collaborator
+* Communicating insights
+
+Top Technical Skills: Python - Numpy, Pandas MatPlotLib, Seaborn, Scikit-Learn, Jupyter; R – Tidyverse ecosystem, Caret, RStudio; version control (git). 

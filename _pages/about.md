@@ -16,11 +16,25 @@ As a test engineer, I work as part of a cross-functional team developing softwar
 
 I am currently pursuing a master’s degree in data science at SMU, concentrating in machine learning.
 
-My strengths:
+**My Strengths:**
+
 * Enthusiastic about solving challenging problems
 * Self-motivated to learn new skills
 * Constantly building expertise
 * Technical collaborator
 * Communicating insights
 
-Top Technical Skills: Python - Numpy, Pandas MatPlotLib, Seaborn, Scikit-Learn, Jupyter; R – Tidyverse ecosystem, Caret, RStudio; version control (git). 
+**Top Technical Skills:**
+
+* Python
+  * Numpy
+  * Pandas 
+  * MatPlotLib
+  * Seaborn
+  * Scikit-Learn
+  * Jupyter
+* R 
+  * Tidyverse ecosystem
+  * Caret
+  * RStudio
+* Version control with git 

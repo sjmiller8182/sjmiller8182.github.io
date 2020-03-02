@@ -34,8 +34,8 @@ Technical Skills
 * **Software Development**: test driven development, library/package development and deployment (at production)
 * **Data Science**: data cleaning and preparation, exploratory data analysis, visualization, communicating insights
 * **Machine Learning**: linear and non-linear modeling, model Interpretation, model selection
-* **Tools**: Linux, git
 * **Big Data**: Hadoop, Hive, Hue, Nifi
+* **Tools**: Linux, git, vscode, Jupyter, rstudio
 * **Cloud Tools**: AWS EC2, AWS EMR, AWS S3
 
 Personal Skills and Qualities

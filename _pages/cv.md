@@ -11,22 +11,56 @@ redirect_from:
 
 Education
 ======
-* M.S. Data Science, SMU, 2020 (expected)
+* M.S. Data Science, SMU, Dec. 2020 (expected)
 * B.S. Engineering Physics, LeTourneau University, 2013
 * B.S. Electrical Engineering, LeTourneau University, 2013
 
-Work experience
+Work Experience
 ======
-* Test Engineer as Texas Instruments Inc.
-  * Worked with cross-functional teams
-  
+* Test Engineer at Texas Instruments Inc.
+  * Extracted, transformed, and analyzed high volume data to ensure production test program quality, track down yield issues, and validate test methods.
+  * Provided analyses to management for project updates and project status reviews. Communicated insights from data analysis to stakeholders through team presentations and reports.
+  * Co-architected large test programs for high volume devices.
+  * Led development and deployment of test code libraries. These libraries helped reduce debugging efforts, user errors, and decreased program bring-up time by reducing total code volume in the test program and by providing standard hardware abstractions for the user.
+  * Created development operations (DevOps) tools to simplify development and deployment of test programs. Scripts were developed in Python and executed steps such as compiling production program builds, auto-tagging program releases, and pushing new program releases out to servers.
+  * Collaborated with global teams (design, manufacturing, applications, marketing, etc.) to clarify goals, solve test functionality problems, quality issues, and support on-time arrival of deliverables to stakeholders.
+  * Utilized git version control (BitBucket) for software development.
+
+
 Skills
 ======
-* Python
-* R
-* Machine Learning
-* Data Science
-* Data Analysis
+* **Software Development**
+  * Version control (Git)
+  * Test driven development
+  * DevOps
+  * Experience with development on Linux/Unix
+  * Experience with library/package development and deployment (production level)
+* **Data Science**
+  * Data Cleaning and Preparation
+  * Exploratory Data Analysis 
+  * Visualization
+  * Communication of Insights
+  * Machine Learning
+    * Linear and non-Linear Modeling
+    * Model selection: scoring metrics, cross-validation, etc.
+  * Big Data
+    * Experience working with Hadoop, Hive, Hue, and Nifi
+* **Cloud Tools**
+  * AWS EC2
+  * AWS EMR
+  * AWS S3
+
+Programming Languages
+======
+* **Python**
+  * Data Science packages: NumPy, SciPy, Sci-Kit Learn (sklearn), Pandas, Jupyter, etc
+  * Deep Learning packages: TensorFlow, Keras
+  * Package and API design
+  * Unit testing
+* **R**
+  * The tidyverse ecosystem
+  * Unit testing
+* **Bash**
 
 <!---
 Publications
@@ -52,3 +86,10 @@ Teaching
 Service and leadership
 ======
 * ODSC West Volunteer (2019)
+
+Honors
+======
+* Alpha Chi National Honor Society, SMU, 2019-Present
+* Epsilon Eta Sigma, Engineering Honor Society, LeTourneau University, 2013
+* President’s List and Dean’s List, LeTourneau University, 2009-2013
+* Eagle Scout, Boy Scouts of America, 2008

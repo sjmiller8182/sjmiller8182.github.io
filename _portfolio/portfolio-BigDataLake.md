@@ -10,8 +10,6 @@ Rikel Djoko
 
 # Project Summary
 
-----------------
-
 The objective of this project was to build a large-scale data framework that will enable us to store and analyze financial market data and drive future predictions for inverstment.
 
 For this project, the following types of data were used
@@ -24,8 +22,6 @@ For this project, the following types of data were used
 * Tweets from over [100 investment related twitter accounts](https://github.com/sjmiller8182/DBMS_Proj/blob/master/scrape_utils/python/twitter_handles.txt)
 
 ## Data Warehouse Overview
-
-----------------
 
 Two star schemas were designed for this data warehouse: a normalized schema (3NF) and a denormalized schema (1NF).
 We investigated the performance of the two schemes in the context of this problem.
@@ -40,8 +36,6 @@ Conceptual diagrams of the data warehouse schemas are shown below.
 <br/><img src='/images/datawarehouse_stocks_twitter/Star_Schema_Simple.png'>
 
 ## Big Data Solution Implementation
-
-----------------
 
 ### Data Collection
 
@@ -68,7 +62,7 @@ The cluster can be provisioned and terminated on demand as needed.
 It comes with a configurable set of the Hadoop ecosystem elements pre-installed and ready to use.
 The EMR cluster used in this study was provisioned with three
  [m5.xlarge](https://aws.amazon.com/ec2/instance-types/m5/) elastic compute instances using version 5.27.0 of the
- [EMR software](See https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-release-5x.html).
+ [EMR software](https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-release-5x.html).
 [Apache Hive](https://hive.apache.org/) was used to create the data warehouse from the data lake.
 [Cloudera Hue](https://gethue.com/) was used for interfacing with the Hadoop cluster.
 
@@ -78,7 +72,6 @@ More information about Amazon Web Serves can be found at [https://aws.amazon.com
 
 ## Results
 
-----------------
 
 Queries were run on the two schemas with different EMR cluster sizes to see the impact of normalization on query time.
 The collected data is located [here](https://github.com/sjmiller8182/DBMS_Proj/blob/master/results_analysis/results.csv).
@@ -88,7 +81,6 @@ A plot summarizing the results is shown below.
 
 ## Additional Information
 
-----------------
 
 * The project repository can be found at [https://github.com/sjmiller8182/Warehousing-Stock-Tweet-Data](https://github.com/sjmiller8182/Warehousing-Stock-Tweet-Data)
 * The project paper can be found [here](https://github.com/sjmiller8182/Warehousing-Stock-Tweet-Data/blob/master/reports/Project_Paper.pdf)

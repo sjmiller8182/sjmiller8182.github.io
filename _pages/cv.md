@@ -9,7 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
-
+Curious and innovative self-starter with a passion for data analysis and learning from data.
+Strong aptitude for learning new concepts and capable of turning new knowledge into actionable ideas. Ability to prioritize requirements from cross-functional teams and effectively communicate with stakeholders to achieve on-time completion of projects.
 
 Education
 ======

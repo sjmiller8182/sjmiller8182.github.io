@@ -10,8 +10,6 @@ Created by [Stuart Miller](https://github.com/sjmiller8182),
 
 # Project Summary
 
-----------------
-
 This was a multiple linear regression analysis of housing prices in Ames, IA (A kaggle dataset)
 for MSDS6371.
 The project had two objectives: 
@@ -25,16 +23,12 @@ The project had two objectives:
 
 ## Objective One - Interpretive Modeling
 
-----------------
-
 We showed that there is strong evidence of an association between hosing prices and
  living room area in the Edwards, Northwest Ames, and Brookside neighborhoods.
 We found that the interaction between neighborhood and living room area is significant in explaining the housing prices.
 Thus, we modeled the housing prices for these three nieghborhoods as a reponse of the full interaction of living room area and neighborhood.
 
 ## Objective Two - Predictive Modeling
-
-----------------
 
 We constructed three models using statistical feature selection techniques.
 We also created a custom model was initially produced by eliminating variables suggested by the automatic selection processes,
@@ -69,16 +63,12 @@ log(SalePrice) ~
 
 ## Additional Information
 
-----------------
-
 * The project repository can be found at [https://github.com/sjmiller8182/RegressionHousingPrices](https://github.com/sjmiller8182/RegressionHousingPrices)
 * The project paper can be found [here](https://github.com/sjmiller8182/RegressionHousingPrices/blob/master/analysis/HousePriceRegressionAnalysis.pdf)
 * This analysis was conducted in the [R programming language](https://www.r-project.org/about.html).
 
 
 # References
-
-----------------
 
 1. Cock, D. D. (2011). Ames, iowa: Alternative to the boston housing data as an end of semester regression
 project. Journal of Statistics Education, 19(3).

@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
+* M.S. Data Science, SMU, 2020 (expected)
 * B.S. Engineering Physics, LeTourneau University, 2013
 * B.S. Electrical Engineering, LeTourneau University, 2013
-* M.S. Data Science, SMU, 2020 (expected)
 
 Work experience
 ======
@@ -28,6 +28,7 @@ Skills
 * Data Science
 * Data Analysis
 
+<!---
 Publications
 ======
   <ul>{% for post in site.publications %}
@@ -45,7 +46,9 @@ Teaching
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+-->
+
+
 Service and leadership
 ======
 * ODSC West Volunteer (2019)

@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+
+
 Education
 ======
 * M.S. Data Science, SMU, Dec. 2020 (expected)
@@ -27,28 +29,23 @@ Work Experience
   * Utilized git version control (BitBucket) for software development.
 
 
-Skills
+Technical Skills
 ======
-* **Software Development**
-  * Version control (Git)
-  * Test driven development
-  * DevOps
-  * Experience with development on Linux/Unix
-  * Experience with library/package development and deployment (production level)
-* **Data Science**
-  * Data Cleaning and Preparation
-  * Exploratory Data Analysis 
-  * Visualization
-  * Communication of Insights
-  * Machine Learning
-    * Linear and non-Linear Modeling
-    * Model selection: scoring metrics, cross-validation, etc.
-  * Big Data
-    * Experience working with Hadoop, Hive, Hue, and Nifi
-* **Cloud Tools**
-  * AWS EC2
-  * AWS EMR
-  * AWS S3
+* **Software Development**: test driven development, library/package development and deployment (at production)
+* **Data Science**: data cleaning and preparation, exploratory data analysis, visualization, communicating insights
+* **Machine Learning**: linear and non-linear modeling, model Interpretation, model selection
+* **Tools**: Linux, git
+* **Big Data**: Hadoop, Hive, Hue, Nifi
+* **Cloud Tools**: AWS EC2, AWS EMR, AWS S3
+
+Personal Skills and Qualities
+=======
+* Written and Verbal Communication
+* Strong team player
+* Self-starter
+* Adaptable to changing priorities
+* Passionate about continuous learning
+* “Make it Happen” attitude
 
 Programming Languages
 ======

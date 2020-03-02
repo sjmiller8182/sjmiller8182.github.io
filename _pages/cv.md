@@ -14,13 +14,13 @@ Strong aptitude for learning new concepts and capable of turning new knowledge i
 
 Education
 ======
-* M.S. Data Science, SMU, Dec. 2020 (expected)
-* B.S. Engineering Physics, LeTourneau University, 2013
-* B.S. Electrical Engineering, LeTourneau University, 2013
+* M.S. Data Science, SMU, Dec. 2020 (expected), GPA: 4.0
+* B.S. Engineering Physics, LeTourneau University, 2013, GPA: 3.77
+* B.S. Electrical Engineering, LeTourneau University, 2013, GPA: 3.77
 
 Work Experience
 ======
-* Test Engineer at Texas Instruments Inc.
+* Test Engineer (Software Development) at Texas Instruments Inc. (2/2014 - Present)
   * Extracted, transformed, and analyzed high volume data to ensure production test program quality, track down yield issues, and validate test methods.
   * Provided analyses to management for project updates and project status reviews. Communicated insights from data analysis to stakeholders through team presentations and reports.
   * Co-architected large test programs for high volume devices.

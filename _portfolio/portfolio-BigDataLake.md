@@ -29,11 +29,11 @@ Conceptual diagrams of the data warehouse schemas are shown below.
 
 **Conceptual Diagram of the Data Warehouse Snowflake Schema**
 
-<br/><img src='/images/datawarehouse_stocks_twitter/SnowFlake_Schema_Simple.png'>
+<br/><img src='/images/datawarehouse_stocks_twitter/SnowFlake_Schema_Simple.png' width="400" height="300"> 
 
 **Conceptual Diagram of the Data Warehouse Denormalized Star Schema**
 
-<br/><img src='/images/datawarehouse_stocks_twitter/Star_Schema_Simple.png'>
+<br/><img src='/images/datawarehouse_stocks_twitter/Star_Schema_Simple.png' width="300" height="200">
 
 ## Big Data Solution Implementation
 
@@ -77,7 +77,7 @@ Queries were run on the two schemas with different EMR cluster sizes to see the 
 The collected data is located [here](https://github.com/sjmiller8182/DBMS_Proj/blob/master/results_analysis/results.csv).
 A plot summarizing the results is shown below.
 
-<br/><img src='/images/datawarehouse_stocks_twitter/Rplot.png'>
+<br/><img src='/images/datawarehouse_stocks_twitter/Rplot.png' width="450" height="400"/>
 
 ## Additional Information
 

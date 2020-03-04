@@ -83,6 +83,6 @@ A plot summarizing the results is shown below.
 
 
 * The project repository can be found at [https://github.com/sjmiller8182/Warehousing-Stock-Tweet-Data](https://github.com/sjmiller8182/Warehousing-Stock-Tweet-Data)
-* The project paper can be found [here](https://github.com/sjmiller8182/Warehousing-Stock-Tweet-Data/blob/master/reports/Project_Paper.pdf)
+* The project paper can be found [here](https://sjmiller8182.github.io/Warehousing-Stock-Tweet-Data/reports/Project_Paper.pdf)
 
 

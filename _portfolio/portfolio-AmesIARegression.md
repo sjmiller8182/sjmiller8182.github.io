@@ -10,7 +10,7 @@ Created by [Stuart Miller](https://github.com/sjmiller8182),
 
 # Project Summary
 
-This was a multiple linear regression analysis of housing prices in Ames, IA (A kaggle dataset)
+This was a multiple linear regression analysis of housing prices in Ames, IA (a Kaggle dataset)
 for MSDS6371.
 The project had two objectives: 
 
@@ -18,26 +18,26 @@ The project had two objectives:
  the living room area of houses in the Edwards, Northwest Ames, and
  Brookside neighborhoods of Ames, IA.
  Provide an interpretation of the model.
-2. Create the most prodictive model of housing prices as possible using only OLS regression techniques and
+2. Create the most predictive model of housing prices as possible using only OLS regression techniques and
  statistical modeling selection techniques such as forward, backward, and stepwise selection.
 
 ## Objective One - Interpretive Modeling
 
-We showed that there is strong evidence of an association between hosing prices and
+We showed that there is strong evidence of an association between housing prices and
  living room area in the Edwards, Northwest Ames, and Brookside neighborhoods.
 We found that the interaction between neighborhood and living room area is significant in explaining the housing prices.
-Thus, we modeled the housing prices for these three nieghborhoods as a reponse of the full interaction of living room area and neighborhood.
+Thus, we modeled the housing prices for these three neighborhoods as a response of the full interaction of living room area and neighborhood.
 
 ## Objective Two - Predictive Modeling
 
 We constructed three models using statistical feature selection techniques.
-We also created a custom model was initially produced by eliminating variables suggested by the automatic selection processes,
+We also created a custom model which was initially produced by eliminating variables suggested by the automatic selection processes,
  visually exploring the data with pairwise scatter plots,
  and adding interaction terms based on graphical analysis and domain knowledge.
 We verified that each model met the assumptions of linear regression defore using the model for prediction.
 Each model was compaired using the Kaggle score, cross validated PRESS (CV Press),
  and adjusted $R^2$ (shown below).
-There is little difference between the scores for the 4 models.
+There is little difference between the scores for the three models.
 However, the custom model used substantially fewer features than the other three models.
 For this reason, we suggested use of the custom model for regression modeling of the housing prices.
 The predictions of the custom model ranked 1948 out of 4565,
@@ -45,7 +45,7 @@ The predictions of the custom model ranked 1948 out of 4565,
 
 **Model Scores**
 
-| Model | Kaggle.Score | CV.Press | Adjused.R.Squared |
+| Model | Kaggle.Score | CV.Press | Adjusted.R.Squared |
 |-------|--------------|----------|-------------------|
 | Custom | 0.13290 | 17.23869 | 0.9303195 |
 | Forward Selection | 0.13476 | 17.08652 | 0.9327050 | 

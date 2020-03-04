@@ -10,7 +10,7 @@ Rikel Djoko
 
 # Project Summary
 
-The objective of this project was to build a large-scale data framework that will enable us to store and analyze financial market data and drive future predictions for inverstment.
+The objective of this project was to build a large-scale data framework that will enable us to store and analyze financial market data as well as drive future predictions for investment.
 
 For this project, the following types of data were used
 
@@ -24,7 +24,7 @@ For this project, the following types of data were used
 ## Data Warehouse Overview
 
 Two star schemas were designed for this data warehouse: a normalized schema (3NF) and a denormalized schema (1NF).
-We investigated the performance of the two schemes in the context of this problem.
+We investigated the performance of the two schemas in the context of this problem.
 Conceptual diagrams of the data warehouse schemas are shown below.
 
 **Conceptual Diagram of the Data Warehouse Snowflake Schema**
@@ -58,13 +58,13 @@ The data was trasferred into a Hadoop data lake for this project.
 Elastic MapReduce (EMR), from AWS, was used for the implementation of
  [Hadoop](https://hadoop.apache.org/) in this project.
 AWS EMR is a pre-configured compute cluster for Big Data.
-The cluster can be provisioned and terminated on demand as needed.
+The cluster can be provisioned and terminated on demand.
 It comes with a configurable set of the Hadoop ecosystem elements pre-installed and ready to use.
 The EMR cluster used in this study was provisioned with three
  [m5.xlarge](https://aws.amazon.com/ec2/instance-types/m5/) elastic compute instances using version 5.27.0 of the
  [EMR software](https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-release-5x.html).
 [Apache Hive](https://hive.apache.org/) was used to create the data warehouse from the data lake.
-[Cloudera Hue](https://gethue.com/) was used for interfacing with the Hadoop cluster.
+[Cloudera Hue](https://gethue.com/) was used to interface with the Hadoop cluster.
 
 <br/><img src='/images/datawarehouse_stocks_twitter/Big_Data_Solution_AWS.png'>
 

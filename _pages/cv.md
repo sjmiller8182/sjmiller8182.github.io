@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Resume"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -10,13 +10,15 @@ redirect_from:
 {% include base_path %}
 
 Curious and innovative self-starter with a passion for data analysis and learning from data.
-Strong aptitude for learning new concepts and capable of turning new knowledge into actionable ideas. Ability to prioritize requirements from cross-functional teams and effectively communicate with stakeholders to achieve on-time completion of projects.
+Strong aptitude for learning new concepts and capable of turning new knowledge into actionable ideas. 
+Ability to prioritize requirements from cross-functional teams and
+effectively communicate with stakeholders to achieve on-time completion of projects.
 
 Education
 ======
 * M.S. Data Science, SMU, Dec. 2020 (expected), GPA: 4.0
-* B.S. Engineering Physics, LeTourneau University, 2013, GPA: 3.77
-* B.S. Electrical Engineering, LeTourneau University, 2013, GPA: 3.77
+* B.S. Engineering Physics, LeTourneau University, 2013, Magna Cum Laude
+* B.S. Electrical Engineering, LeTourneau University, 2013, Magna Cum Laude
 
 Work Experience
 ======
@@ -34,14 +36,14 @@ Technical Skills
 ======
 * **Software Development**: test driven development, library/package development and deployment (at production)
 * **Data Science**: data cleaning and preparation, exploratory data analysis, visualization, communicating insights
-* **Machine Learning**: linear and non-linear modeling, model Interpretation, model selection
+* **Machine Learning**: linear and non-linear modeling, model interpretation, model selection, feature importance, feature reduction
 * **Big Data**: Hadoop, Hive, Hue, Nifi
-* **Tools**: Linux, git, vscode, Jupyter, rstudio
+* **Tools**: Linux, git, vscode, Jupyter, RStudio
 * **Cloud Tools**: AWS EC2, AWS EMR, AWS S3
 
 Personal Skills and Qualities
 =======
-* Written and Verbal Communication
+* Written and verbal communication
 * Strong team player
 * Self-starter
 * Adaptable to changing priorities

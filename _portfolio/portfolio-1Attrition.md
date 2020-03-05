@@ -50,7 +50,9 @@ Based on the preformance of the model, the goals for sensitivity and specificity
 Income was modeled with linear regression (OLS).
 From data exploration, we suspected that monthly income was correlated to TotalworkingYears, Age, YearsAtCompany, YearsInCurrentRole, and YearsWithCurrentManager.
 
-μ{MonthlyIncome}=β^0+β^1(JobLevel)+β^2(JobRole)+β^3(TotalWorkingYears)
+$$
+\mu \{MonthlyIncome\}=\hat{\beta}_0+\hat{\beta}_1(JobLevel)+\hat{\beta}_2(JobRole)+\hat{\beta}_3(TotalWorkingYears)
+$$
 
 The model requires that all categorical variables have the same slope between MonthlyIncome and TotalWorkingYears becasue no interaction terms were included. 
 The categorical variables only provide a difference in intercept for the regression between MonthlyIncome and TotalWorkingYears.

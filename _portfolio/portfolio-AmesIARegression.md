@@ -64,7 +64,7 @@ log(SalePrice) ~
 ## Additional Information
 
 * The project repository can be found at [https://github.com/sjmiller8182/RegressionHousingPrices](https://github.com/sjmiller8182/RegressionHousingPrices)
-* The project paper can be found [here](https://github.com/sjmiller8182/RegressionHousingPrices/blob/master/analysis/HousePriceRegressionAnalysis.pdf)
+* The project paper can be found [here](https://sjmiller8182.github.io/RegressionHousingPrices/analysis/HousePriceRegressionAnalysis.pdf)
 * This analysis was conducted in the [R programming language](https://www.r-project.org/about.html).
 
 

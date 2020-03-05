@@ -48,19 +48,23 @@ Based on the preformance of the model, the goals for sensitivity and specificity
 ## Income Model
 
 Income was modeled with linear regression (OLS).
-From data exploration, we suspected that monthly income was correlated to TotalworkingYears, Age, YearsAtCompany, YearsInCurrentRole, and YearsWithCurrentManager.
+From data exploration, we suspected that monthly income was correlated to total working years, age, years at the company, years in current role, and years with current manager. 
+The following model was used.
+The model requires that all categorical variables have the same slope between `MonthlyIncome` and `TotalWorkingYears` becasue no interaction terms were included. 
+The categorical variables, `JobLevel` and `JobRole`, only provide a difference in intercept for the regression between MonthlyIncome and TotalWorkingYears.
+Estimates for the model parameters are shown in the table below.
 
 $$
 \mu \{MonthlyIncome\}=\hat{\beta}_0+\hat{\beta}_1(JobLevel)+\hat{\beta}_2(JobRole)+\hat{\beta}_3(TotalWorkingYears)
 $$
 
-The model requires that all categorical variables have the same slope between MonthlyIncome and TotalWorkingYears becasue no interaction terms were included. 
-The categorical variables only provide a difference in intercept for the regression between MonthlyIncome and TotalWorkingYears.
 
 From a fit of the model, we found that for an incease in total working years of one year there is an associated increase in mean monthly income of $44.46.
 The change in intercept for each job level appears to be significantly different (level 1 was used for reference). 
 The change in intercept for each job role appears to be significantly different except for manufacturing director and sales executive. 
-There is not sufficent evidence to suggest that the intercepts for manufacturing director and sales executive are significantly different than the reference (Healthcare Representative).
+There is not sufficent evidence to suggest that the intercepts for manufacturing director and sales executive are significantly different than the reference (healthcare representative).
+
+**Estimate of Model Parameters**
 
 | Variable | Estimate | p-value | 
 |----------|----------|---------|
@@ -81,6 +85,7 @@ There is not sufficent evidence to suggest that the intercepts for manufacturing
 
 ## Additional Information
 
-* The project repository can be found at [https://github.com/sjmiller8182/AttritionAnalysis](https://github.com/sjmiller8182/AttritionAnalysis)
+* The project repository can be found at [https://github.com/sjmiller8182/AttritionAnalysis](https://github.com/sjmiller8182/AttritionAnalysis).
 * [Read the full report.](https://sjmiller8182.github.io/AttritionAnalysis/reports/CaseStudy2DDS.html)
 * This analysis was conducted in the [R programming language](https://www.r-project.org/about.html).
+

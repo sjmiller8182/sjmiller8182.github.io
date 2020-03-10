@@ -23,12 +23,12 @@ Education
 Work Experience
 ======
 * Test Engineer (Software Development) at Texas Instruments Inc. (2/2014 - Present)
-  * Extracted, transformed, and analyzed high volume data to ensure production test program quality, track down yield issues, and validate test methods.
+  * Extracted, transformed, and analyzed large volumes of data to ensure quality of production test programs, identify yield issues, and validate test methods.
   * Provided analyses to management for project updates and project status reviews. Communicated insights from data analysis to stakeholders through team presentations and reports.
-  * Co-architected large test programs for high volume devices.
-  * Led development and deployment of test code libraries. These libraries helped reduce debugging efforts, user errors, and decreased program bring-up time by reducing total code volume in the test program and by providing standard hardware abstractions for the user.
-  * Created development operations (DevOps) tools to simplify development and deployment of test programs. Scripts were developed in Python and executed steps such as compiling production program builds, auto-tagging program releases, and pushing new program releases out to servers.
-  * Collaborated with global teams (design, manufacturing, applications, marketing, etc.) to clarify goals, solve test functionality problems, quality issues, and support on-time arrival of deliverables to stakeholders.
+  * Co-architected large test programs for high volume products.
+  * Led development and deployment of test code libraries. These libraries helped reduce debugging efforts, user errors, and decreased program delivery time by reducing total code volume in the test program and by providing standard hardware abstractions for the user.
+  * Created development operations (DevOps) tools to simplify development and deployment of test programs. Scripts were developed in python and executed automation steps such as compiling production program builds, auto-tagging program releases, and pushing new program releases out to servers.
+  * Collaborated with global teams (design, manufacturing, applications, marketing, etc.) to clarify goals, solve test functionality problems, resolve quality issues, and support on-time arrival of deliverables to stakeholders.
   * Utilized git version control (BitBucket) for software development.
 
 
@@ -43,7 +43,7 @@ Technical Skills
 
 Personal Skills and Qualities
 =======
-* Written and verbal communication
+* Strong written and verbal communication capabilities
 * Strong team player
 * Self-starter
 * Adaptable to changing priorities

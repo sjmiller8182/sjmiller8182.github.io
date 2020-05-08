@@ -1,6 +1,6 @@
 ---
 title: "Attrition Data Analysis"
-excerpt: "In this analysis, we present factors related to attrition. Three top factors are presented and relations to other factors are described. Models for attrition and income are presented along with a discussion on performance. Results of the income modeling are interpreted. Finally, some other trends in the data are described..<br/><img src='/images/attrition_banner.png'>"
+excerpt: "In this analysis, we present factors related to attrition. Three top factors are presented and relations to other factors are described. Models for attrition and income are presented along with a discussion on performance. Results of the income modeling are interpreted. Finally, some other trends in the data are described..<br/><img src='/images/portfolio/attrition_banner.png'>"
 collection: portfolio
 ---
 

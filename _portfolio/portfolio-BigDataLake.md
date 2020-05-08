@@ -1,6 +1,6 @@
 ---
 title: "Big Data Lake Solution for Warehousing Stock Data and Tweet Data"
-excerpt: "We want to build a large-scale data framework that will enable us to store and analyze financial market data and drive future predictions for inverstment.<br/><img src='/images/datawarehouse_stocks_twitter/project_overview.png'>"
+excerpt: "We want to build a large-scale data framework that will enable us to store and analyze financial market data and drive future predictions for inverstment.<br/><img src='/images/portfolio/datawarehouse_stocks_twitter/project_overview.png'>"
 collection: portfolio
 ---
 
@@ -29,11 +29,11 @@ Conceptual diagrams of the data warehouse schemas are shown below.
 
 **Conceptual Diagram of the Data Warehouse Snowflake Schema**
 
-<br/><img src='/images/datawarehouse_stocks_twitter/SnowFlake_Schema_Simple.png' width="400" height="300"> 
+<br/><img src='/images/portfolio/datawarehouse_stocks_twitter/SnowFlake_Schema_Simple.png' width="400" height="300"> 
 
 **Conceptual Diagram of the Data Warehouse Denormalized Star Schema**
 
-<br/><img src='/images/datawarehouse_stocks_twitter/Star_Schema_Simple.png' width="300" height="200">
+<br/><img src='/images/portfolio/datawarehouse_stocks_twitter/Star_Schema_Simple.png' width="300" height="200">
 
 ## Big Data Solution Implementation
 
@@ -66,7 +66,7 @@ The EMR cluster used in this study was provisioned with three
 [Apache Hive](https://hive.apache.org/) was used to create the data warehouse from the data lake.
 [Cloudera Hue](https://gethue.com/) was used to interface with the Hadoop cluster.
 
-<br/><img src='/images/datawarehouse_stocks_twitter/Big_Data_Solution_AWS.png'>
+<br/><img src='/images/portfolio/datawarehouse_stocks_twitter/Big_Data_Solution_AWS.png'>
 
 More information about Amazon Web Serves can be found at [https://aws.amazon.com/](https://aws.amazon.com/)
 
@@ -77,7 +77,7 @@ Queries were run on the two schemas with different EMR cluster sizes to see the 
 The collected data is located [here](https://github.com/sjmiller8182/DBMS_Proj/blob/master/results_analysis/results.csv).
 A plot summarizing the results is shown below.
 
-<br/><img src='/images/datawarehouse_stocks_twitter/Rplot.png' width="450" height="400"/>
+<br/><img src='/images/portfolio/datawarehouse_stocks_twitter/Rplot.png' width="450" height="400"/>
 
 ## Additional Information
 

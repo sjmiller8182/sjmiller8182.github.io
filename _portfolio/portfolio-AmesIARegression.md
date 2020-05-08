@@ -1,6 +1,6 @@
 ---
 title: "Regression Modeling of Housing Prices in Ames, IA"
-excerpt: "A multiple linear regression analysis of housing prices in Ames, IA.<br/><img src='/images/ames_ia_housesbanner.png'>"
+excerpt: "A multiple linear regression analysis of housing prices in Ames, IA.<br/><img src='/images/portfolio/ames_ia_housesbanner.png'>"
 collection: portfolio
 ---
 

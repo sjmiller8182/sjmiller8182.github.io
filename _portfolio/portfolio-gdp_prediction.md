@@ -1,6 +1,6 @@
 ---
 title: "Predicting the Next Recession"
-excerpt: "In this analysis, we propose to model the change in GDP for the United States to attempt to predict recessions.<br/><img src='/images/gdp_realization.png'>"
+excerpt: "In this analysis, we propose to model the change in GDP for the United States to attempt to predict recessions.<br/><img src='/images/portfolio/gdp_realization.png'>"
 collection: portfolio
 ---
 

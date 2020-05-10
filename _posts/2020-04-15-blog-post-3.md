@@ -10,26 +10,26 @@ tags:
 ---
 
 NumPy arrays are a core part of the numerical computing stack in Python.
-Numpy provides a large number of functions for creating these arrays, 
+NumPy provides a large number of functions for creating these arrays, 
 of which `np.array` is most well known (due to ubiquitous use in tutorials).
 However, `np.array` is not always the right function to use.
 This post will explore some other common array creation functions.
 
-# Creating Numpy Arrays
+# Creating NumPy Arrays
 
 NumPy is at the base of must numerical computing in Python.
 The `ndarray` is the central class provided by NumPy, which implements a C-style array.
 
-## Backgroud
+## Background
 
 Unlike the List object from base Python, `ndarrays` are statically typed,
  containing only one type.
-This makes `ndarrays` significantly faster than base Python objects in most cases.
+In most cases, this makes `ndarrays` significantly faster than base Python objects.
 The static type of an `ndarray` is termed the 'data-type' of the array and is denoted with the keyword `dtype`. 
 
 In addition to a data-type, an array has a 'shape'.
-An array shape is a tuple representing how the array is structured.
-The shape primary has to do with how the `ndarray` interpreted and
+An array shape is a Tuple representing how the array is structured.
+The shape primarily has to do with how the `ndarray` interpreted and
  the types of operations that are allowed.
 Array shape will not be discussed in detail here.
 For the purposes of this post, I will focus 1-D arrays as the ideas are easily extended to other array shapes.
@@ -47,12 +47,12 @@ The most common array creation functions from NumPy can be put three categories:
 
 These are the most basic type of functions for creating NumPy arrays.
 
-* `np.empty`: creates a numpy array with uninitialized values i.e. its empty.
-* `np.empty_like`: create an empty array based on another array (same shape and `dtype`)
+* `np.empty`: creates a `ndarray` with uninitialized values i.e. its empty.
+* `np.empty_like`: create an empty `ndarray` based on another array (same shape and `dtype`)
 
 These functions are typically used when an array must be filled with a loop.
-In the typical away that `list.append()` might be used.
-However, it should be used when the size of the array is known (like in a for-loop) as iteratively resizing a numpy array is slow.
+In the typical way that `list.append()` might be used.
+However, it should be used when the size of the array is known (like in a for-loop) as iteratively resizing a NumPy array is slow.
 
 As an example, `np.empty` could be used to collect the silhouette scores of k-means clustering for given values of k.
 In the code below, the empty array is built based on the number of k values that will be scored.
@@ -114,20 +114,21 @@ The following functions create array containing sequences or numeric spaces.
 * `np.logspace`: create an array containing evenly spaced numbers over an interval on a log scale.
 
 `np.arange` can be used to create a general sequence of numbers.
-Very oftern, I will use `np.arange` generate sequences of model hyperparameters like k values for KMeans clustering.
+Often, `np.arange` will be used to generate sequences of model hyperparameters for tuning like k values for k-Means clustering.
 For instance, the variable creation section in the example above could be written with `np.arange`:
 
 ```python
 # initialize variables
 k_values = np.arange(2, 7)
-silhouette_scores = np.empty_like(k_values)
+# note: dtype is overwritten because 
+silhouette_scores = np.empty_like(k_values, dtype = 'float')
 ```
 
-I sometimes see `np.array([v for v in range(start, stop)])` in data science code.
-Use `np.arange` instead of using list comprehension and `np.array`.
+The following list comprehension, `np.array([v for v in range(start, stop)])`, is sometimes found in data science code.
+These instances are a good oppertunity to use `np.arange` instead of using list comprehension and `np.array`.
 
-I often use `np.linspace` and `np.logspace` when searching for model hyperparameters.
-For instance, it is common to search for a good regularization value when user Ridge or LASSO regression.
+An example use case of `np.linspace` and `np.logspace` is building sequences for model hyperparameters searches.
+For instance, it is common to search for a good regularization value when using Ridge or LASSO regression.
 The code example below shows creation of a logspace that is used for grid searching the regularization hyperparameter in logistic regression.
 
 ```python
@@ -148,10 +149,10 @@ clf.fit(X_train, y_train)
 The following functions will create arrays from iterables.
 
 * `np.array`: creates an `np.ndarray` from an existing object. For instance coverting a `List` to an `ndarray`.
-* `np.asarray`: converts an object to an ndarray, but does not copy an existing `np.ndarray` to a new object.
+* `np.asarray`: converts an object to an `ndarray`, but does notcreate a copy of an existing `ndarray`.
 
-`np.array` is by far the most well known array creation function in numpy.
-While I do not think an example is needed, a simple example is provided for completion.
+`np.array` is by far the most well known array creation function in NumpP.
+An example it provided below.
 
 ```python
 # create an ndarray from a list
@@ -159,11 +160,11 @@ While I do not think an example is needed, a simple example is provided for comp
 array([2, 1, 4])
 ```
 
-`np.asarray` is a really useful function for coercing arguments of a function to arrays.
+`np.asarray` is a really useful function for coercing arguments of a function to `ndarrays`.
 In functions that typically accept arrays, it is common also accept any 'list\_like' or 'array\_like' object.
-Any function that takes an 'array\_like' object, expecting to use it like an array, must convert it to an array internally.
+Any function that takes an 'array\_like' object, expecting to use it like an `ndarray`, must convert it to an array internally.
 However, if an `ndarray` is passed to the function, there is no need to use `np.array` which will create a copy of the array.
-Istead, use `np.asarray` which will check if the input object is an array or exposes an `__array__` 
+Instead, use `np.asarray` which will check if the input object is an array or exposes an `__array__` 
  (i.e. it contains an array representation like pd.DataFrame, pd.Series)
  and will only create a new `ndarray` when necessary.
 
@@ -178,8 +179,9 @@ def to_array(iterable_object):
 
 ```
 
-Note: 'list\_like' or 'array\_like' are colloquialisms used in the pydata stack to describe an object that 'looks' like a list or an array.
+Note: 'list\_like' or 'array\_like' are colloquialisms used in the PyData stack to describe an object that 'looks' like a list or an array.
 
 ## References
 
-* \[1\] Jake VanderPlas, "Understanding Data Types in Python", https://jakevdp.github.io/PythonDataScienceHandbook/02.01-understanding-data-types.html
+* \[1\] NumPy Developers, "NumPy v1.18", https://numpy.org/doc/stable/
+* \[2\] Jake VanderPlas, "Understanding Data Types in Python", https://jakevdp.github.io/PythonDataScienceHandbook/02.01-understanding-data-types.html

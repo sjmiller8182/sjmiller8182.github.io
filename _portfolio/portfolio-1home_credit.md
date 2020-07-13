@@ -1,6 +1,6 @@
 ---
 title: "Home Credit Loan Default Analysis"
-excerpt: "In this analysis, we present findings from loan default data. We provide a model for predicting loan default status and interpretable customer segmentation.<br/><img src='/images/portfolio/money_banner.png'>"
+excerpt: "In this analysis, we present findings from loan default data. We provide a model for predicting loan default status and interpretable customer segmentation.<br/><img src='/images/portfolio/home_credit/money_banner.png'>"
 collection: portfolio
 ---
 

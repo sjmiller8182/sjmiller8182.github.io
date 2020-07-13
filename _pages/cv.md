@@ -19,6 +19,12 @@ Education
 * B.S. Engineering Physics, LeTourneau University, 2013, Magna Cum Laude
 * B.S. Electrical Engineering, LeTourneau University, 2013, Magna Cum Laude
 
+Certifications
+======
+* TensorFlow in Practice; 2020; Coursera-DeepLearning.AI ([View Certificate](https://coursera.org/share/1921cf9a6856be4b26fa8492fe5450bc))
+* Data Analyst Nanodegree; 2018; Udacity ([View Certificate](https://confirm.udacity.com/PJSPAE4V))
+* Divide & Conquer, Sorting, & Randomized Algorithms; 2017; Coursera-Stanford ([View Certificate](https://coursera.org/share/570a4dda979c558207b8a86f33a99272))
+
 Work Experience
 ======
 * Test Engineer (Software Development) at Texas Instruments Inc. (2/2014 - Present)
@@ -29,13 +35,14 @@ Work Experience
   * Created development operations (DevOps) tools to simplify development and deployment of test programs. Scripts were developed in python and executed automation steps such as compiling production program builds, auto-tagging program releases, and pushing new program releases out to servers.
   * Collaborated with global teams (design, manufacturing, applications, marketing, etc.) to clarify goals, solve test functionality problems, resolve quality issues, and support on-time arrival of deliverables to stakeholders.
   * Utilized git version control (BitBucket) for software development.
+  * Trained two new hires and mentored three interns.
 
 
 Technical Skills
 ======
+* **Data Science**: data cleaning and preparation, exploratory data analysis, visualization, communicating insights, regression analysis, ANOVA, hypothesis testing
+* **Machine Learning**: linear and non-linear modeling, model interpretation, model selection, feature importance, feature reduction, deep learning, clustering
 * **Software Development**: test driven development, library/package development and deployment (at production)
-* **Data Science**: data cleaning and preparation, exploratory data analysis, visualization, communicating insights
-* **Machine Learning**: linear and non-linear modeling, model interpretation, model selection, feature importance, feature reduction
 * **Big Data**: Hadoop, Hive, Hue, Nifi
 * **Tools**: Linux, git, vscode, Jupyter, RStudio
 * **Cloud Tools**: AWS EC2, AWS EMR, AWS S3
@@ -52,12 +59,12 @@ Personal Skills and Qualities
 Programming Languages
 ======
 * **Python**
-  * Data Science packages: NumPy, SciPy, Sci-Kit Learn (sklearn), Pandas, Jupyter, etc
+  * Data Science packages: NumPy, SciPy, Scikit Learn (sklearn), Pandas, Jupyter, Gensim, SpaCy
   * Deep Learning packages: TensorFlow, Keras
   * Package and API design
   * Unit testing
 * **R**
-  * The tidyverse ecosystem
+  * The tidyverse ecosystem: ggplot2, dplyr, caret
   * Unit testing
 * **Bash**
 

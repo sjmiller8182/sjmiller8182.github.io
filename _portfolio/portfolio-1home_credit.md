@@ -1,8 +1,10 @@
 ---
-title: "Attrition Data Analysis"
-excerpt: "In this analysis, we present findings from loan default data. We provide a model for predicting loan default status and interpretable customer segmentation.<br/><img src='/images/portfolio/attrition_banner.png'>"
+title: "Home Credit Loan Default Analysis"
+excerpt: "In this analysis, we present findings from loan default data. We provide a model for predicting loan default status and interpretable customer segmentation.<br/><img src='/images/portfolio/money_banner.jpg'>"
 collection: portfolio
 ---
+
+Image by <a href="https://pixabay.com/users/nattanan23-6312362/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2724245">Nattanan Kanchanaprat</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2724245">Pixabay</a>
 
 Created by [Stuart Miller](https://github.com/sjmiller8182),
  [Paul Adams](https://github.com/PaulAdams4361),

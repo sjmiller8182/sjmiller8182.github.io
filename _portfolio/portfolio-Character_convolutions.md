@@ -1,5 +1,5 @@
 ---
-title: "Home Credit Loan Default Analysis"
+title: "Character Convolutions for Text Classification"
 excerpt: "An implementation of "Character-level Convolutional Networks for Text Classification" in TensorFlow.<br/><img src='/images/letters_banner.png'>"
 collection: portfolio
 ---

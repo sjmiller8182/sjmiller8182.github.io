@@ -1,8 +1,10 @@
 ---
 title: "Character Convolutions for Text Classification"
-excerpt: "An implementation of "Character-level Convolutional Networks for Text Classification" in TensorFlow.<br/><img src='/images/letters_banner.png'>"
+excerpt: "An implementation of Character-level Convolutional Networks for Text Classification in TensorFlow.<br/><img src='/images/letters_banner.png'>"
 collection: portfolio
 ---
+
+Created by [Stuart Miller](https://github.com/sjmiller8182)
 
 # Character Convolutions for Text Classification
 
@@ -61,7 +63,7 @@ See ["Twitter Sentiment Classification using Distant Supervision"](https://www-c
 This character-level convolutional model performs on par with the more traditional methods shown in the paper.
 The ConvNet model performance is shown below.
 
-![ConvNet_Performance](/images/ConvNet_Accuracy_Loss.png)
+<br/><img src='/images/ConvNet_Accuracy_Loss.png'> 
 
 ## Comparison vs LSTM, Universal Sentence Encoder
 
@@ -69,14 +71,14 @@ This model was compared with the Universal Sentence Encoder (USE) and a characte
 As shown in the validation performance plots below,
 the LSTM provides the best accuracy followed by the ConvNet model and the USE model 
 
-![Comparison_Performance](/images/model_performance_compare.png)
+<br/><img src='/images/model_performance_compare.png'> 
 
 However, in terms of cost, we can see that models rank in the opposite order (no free lunch).
 The bidirectional LSTM provided the best validation accuracy,
 but at a much greater cost.
 The ConvNet model provides a good middle ground between the three models with reasonably good accuracy at relatively training cost.
 
-![Comparison_Performance](/images/model_training_time_compare.png)
+<br/><img src='/images/model_training_time_compare.png'> 
 
 ## Notebook 
 

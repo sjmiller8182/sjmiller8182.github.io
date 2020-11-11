@@ -192,7 +192,7 @@ While these can be *implemented in the same callback*, I will break them into tw
 
 The changes to learning rate is descibed by the following quote in the paper.
 
-> "The learning rate decayed by a factor of 1.0000002 every batch update until it reached a minimum of 10−6"
+> "The learning rate decayed by a factor of 1.0000002 every batch update until it reached a minimum of 10E−6"
 
 The following code block implements this learning rate schedule.
 Note the use of `tensorflow.keras.backend` (conventionally imported as K) to interact with the optimizer.
@@ -223,7 +223,7 @@ lr_scheduler = LRSchedule()
 
 The changes to momentum is descibed by the following quote in the paper.
 
-> "A momentum term increased linearly over the first 200 epochs from 0.9 to 0.99, at which point it remained constant. "
+> "A momentum term increased linearly over the first 200 epochs from 0.9 to 0.99, at which point it remained constant."
 
 Again, note the use of `tensorflow.keras.backend`
 

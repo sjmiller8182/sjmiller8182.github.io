@@ -9,13 +9,13 @@ redirect_from:
 
 {% include base_path %}
 
-Data scientist and software developer with a diverse background in semiconductor manufacturing. Aim to
-use my expertise in data mining and machine learning to improve products and processes. Over 3 years of
-experience developing production level software and data mining with Python and R.
+Machine learning engineer with a diverse background in semiconductor manufacturing. 
+Aim to use my expertise in data mining and machine learning to improve products and processes. 
+Over 3 years of experience developing production level software and data mining with Python and R.
 
 Education
 ======
-* M.S. Data Science, SMU, Dec. 2020 (expected), GPA: 4.0
+* M.S. Data Science, Southern Methodist University, Dec. 2020, Outstanding Graduate Award
 * B.S. Engineering Physics, LeTourneau University, 2013, Magna Cum Laude
 * B.S. Electrical Engineering, LeTourneau University, 2013, Magna Cum Laude
 
@@ -27,7 +27,12 @@ Certifications
 
 Work Experience
 ======
-* Test Engineer (Software Development) at Texas Instruments Inc. (2/2014 - Present)
+* Machine Learning Engineer at State Farm (2/2021 - Present)
+  * GitLab CI/CD pipelines
+  * Flask/FastAPI web API development for model service calls
+  * Containers-as-a-Service (CaaS) deployments
+  * Docker image development
+* Test Engineer (Software Development) at Texas Instruments Inc. (2/2014 - 2/2021)
   * Extracted, transformed, and analyzed large volumes of data to ensure quality of production test programs, identify yield issues, and validate test methods.
   * Provided analyses to management for project updates and project status reviews. Communicated insights from data analysis to stakeholders through team presentations and reports.
   * Co-architected large test programs for high volume products.
@@ -43,9 +48,7 @@ Technical Skills
 * **Data Science**: data cleaning and preparation, exploratory data analysis, visualization, communicating insights, regression analysis, ANOVA, hypothesis testing
 * **Machine Learning**: linear and non-linear modeling, model interpretation, model selection, feature importance, feature reduction, deep learning, clustering
 * **Software Development**: test driven development, library/package development and deployment (at production)
-* **Big Data**: Hadoop, Hive, Hue, Nifi
-* **Tools**: Linux, git, vscode, Jupyter, RStudio
-* **Cloud Tools**: AWS EC2, AWS EMR, AWS S3
+* **Tools**: Linux, git, bash, Jupyter
 
 Personal Skills and Qualities
 =======
@@ -66,15 +69,16 @@ Programming Languages
 * **R**
   * The tidyverse ecosystem: ggplot2, dplyr, caret
   * Unit testing
-* **Bash**
 
-<!---
+
+
 Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
+<!---  
 Talks
 ======
   <ul>{% for post in site.talks %}
@@ -95,7 +99,8 @@ Service and leadership
 
 Honors
 ======
-* Alpha Chi National Honor Society, SMU, 2019-Present
+* Outstanding Graduate Award, Southern Methodist University, 2020
+* Alpha Chi National Honor Society, Southern Methodist University, 2019-2020
 * Epsilon Eta Sigma, Engineering Honor Society, LeTourneau University, 2013
 * President’s List and Dean’s List, LeTourneau University, 2009-2013
 * Eagle Scout, Boy Scouts of America, 2008

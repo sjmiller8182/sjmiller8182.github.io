@@ -5,7 +5,7 @@ permalink: /publication/multi-modal-classification-using-images-and-text
 excerpt: 'This paper proposes a method for the integration of natural language understanding in image classification to improve classification accuracy by making use of associated metadata.'
 date: 2021-01-11
 venue: 'SMU Data Science Review'
-paperurl: 'https://scholar.smu.edu/datasciencereview/vol3/iss3/6/
+paperurl: 'https://scholar.smu.edu/datasciencereview/vol3/iss3/6/'
 citation: 'Miller, Stuart J.; Howard, Justin; Adams, Paul; Schwan, Mel; and Slater, Robert (2020) "Multi-Modal Classification Using Images and Text," SMU Data Science Review: Vol. 3 : No. 3, Article 6.'
 ---
 This paper proposes a method for the integration of natural language understanding in image classification to improve classification accuracy by making use of associated metadata.
